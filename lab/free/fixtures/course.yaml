@@ -1,0 +1,18 @@
+- model: free.Course
+  pk: 1
+  fields:
+    Course_id: 1
+    Course_name: "math"
+    name: "boy"
+- model: free.Course
+  pk: 2
+  fields:
+    Course_id: 2
+    Course_name: "sci"
+    name: "noi"
+- model: free.Course
+  pk: 3
+  fields:
+    Course_id: 3
+    Course_name: "history"
+    name: "bua"

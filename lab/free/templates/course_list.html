@@ -1,0 +1,7 @@
+<h1>Course list</h1>
+
+{%for course in course%}
+    <p>{{course.Course_id}} - {{course.Course_name}} - {{course.name}}</p>
+    <a href="{% url 'update_course' pk=course.Course_id %}">update</a>
+    <a href="{% url 'course_delete' pk=course.Course_id %}">delete</a>
+    {%endfor%}
